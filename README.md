@@ -1,3 +1,4 @@
 # projects.c
 
-arithmetics projects >>>
+some shit
+
