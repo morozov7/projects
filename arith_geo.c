@@ -15,7 +15,7 @@ float $1(float a, float b, float* z, float* y, float* x, float* p, float* k, flo
 }
 void main(void){
     float z, y, a, b, p, k, r, x, o, n, pm; //addr variables
-    printf("Escolha dois numeros {n1, n2 ∈ {R*}}\n:");
+    printf("chose 2 numbers{n1, n2 ∈ {R*}}\n:");
     scanf("%f %f",&a,&b);
     printf("sum:\t%f\n", $1(a, b, &z, &y, &x, &p, &k, &r, &n));
     printf("sub:\t%f\n", z);
