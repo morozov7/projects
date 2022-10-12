@@ -1,10 +1,10 @@
 #include <stdio.h>
 #include <math.h>
 #include <stdlib.h>
-float $1(float a, float b, float* $3, float* $4, float* $5, float* $6, float* $7, float* $8, float* $9){ 
-    
-    float $2;
-    $2 = a + b;
+float $1(float a, float b, float* $3, float* $4, float* $5, float* $6, float* $7, float* $8, float* $9){
+
+     float $2;
+     $2 = a + b;
     *$3 = a - b;
     *$4 = a * b;
     *$5 = a / b;
@@ -16,8 +16,8 @@ float $1(float a, float b, float* $3, float* $4, float* $5, float* $6, float* $7
     return $2;
 }
 void main(){
-    
-    float a, b, $3, $4, $5, $6, $7, $8, $9; 
+
+    float a, b, $3, $4, $5, $6, $7, $8, $9;
     printf("chose 2 numbers{n1, n2 ∈ {R - 0}}\n:");
     scanf("%f %f",&a,&b);
     printf("sum:\t%f\n", $1(a, b, &$3, &$4, &$5, &$6, &$7, &$8, &$9));
