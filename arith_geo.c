@@ -9,13 +9,13 @@ float $1(float a, float b, float* z, float* y, float* x, float* p, float* k, flo
     *y = a * b;
     *x = a / b;
     *p = pow(a, b);
+    *n = pow(b, a);
     *k = sqrt(a);
     *r = sqrt(b);
-    *n = pow(b, a);
     
     return g;
 }
-void main(void){
+void main(){
     
     float z, y, a, b, p, k, r, x, o, n, pm; 
     printf("chose 2 numbers{n1, n2 ∈ {R*}}\n:");
