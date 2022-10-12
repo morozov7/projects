@@ -1,7 +1,7 @@
-# projects
+# Projects
 
 - some projects i have wasted time on
 
-## first project
+## First project
 
 - Float calculator
