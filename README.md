@@ -1,7 +1,7 @@
 # projects.c
 
-- some projects i have wasted time on.
+- some projects i have wasted time on
 
 ## first project
 
-- arithmetic float calculator.
+- Float calculator
