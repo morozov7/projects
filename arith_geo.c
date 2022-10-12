@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <math.h>
 #include <stdlib.h>
-float $1(float a, float b, float* z, float* y, float* x, float* p, float* k, float* r, float* n){ //function
+float $1(float a, float b, float* z, float* y, float* x, float* p, float* k, float* r, float* n){ 
     
     float g;
     g = a + b;
@@ -17,7 +17,7 @@ float $1(float a, float b, float* z, float* y, float* x, float* p, float* k, flo
 }
 void main(void){
     
-    float z, y, a, b, p, k, r, x, o, n, pm; //addr variables
+    float z, y, a, b, p, k, r, x, o, n, pm; 
     printf("chose 2 numbers{n1, n2 ∈ {R*}}\n:");
     scanf("%f %f",&a,&b);
     printf("sum:\t%f\n", $1(a, b, &z, &y, &x, &p, &k, &r, &n));
