@@ -3,8 +3,8 @@
 #include <stdlib.h>
 float $1(float a, float b, float* z, float* y, float* x, float* p, float* k, float* r, float* n){ 
     
-    float g;
-    g = a + b;
+    float $2;
+    $2 = a + b;
     *z = a - b;
     *y = a * b;
     *x = a / b;
@@ -12,8 +12,8 @@ float $1(float a, float b, float* z, float* y, float* x, float* p, float* k, flo
     *n = pow(b, a);
     *k = sqrt(a);
     *r = sqrt(b);
-    
-    return g;
+
+    return $2;
 }
 void main(){
     
