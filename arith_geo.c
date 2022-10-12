@@ -27,8 +27,5 @@ void main(void){
     printf("n1 power n2:\t%f\n", p);
     printf("n2 power n1:\t%f\n", n);
     printf("sqrt n1:\t%f\n", k);
-    printf("sqrt n2:\t%f\n", r);
-    
-    
-    return;
+    printf("sqrt n2:\t%f\n", r);    
 }
