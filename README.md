@@ -1,4 +1,4 @@
-# projects.c
+# projects
 
 - some projects i have wasted time on
 
