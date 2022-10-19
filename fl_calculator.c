@@ -18,7 +18,7 @@ float $1(float a, float b, float* $3, float* $4, float* $5, float* $6, float* $7
 void main(){
 
     float a, b, $3, $4, $5, $6, $7, $8, $9;
-    printf("chose 2 numbers{n1, n2 ∈ {R - 0}}\n:");
+    printf("chose 2 numbers{n1, n2 ∈ {|R - 0}}\n:");
     scanf("%f %f",&a,&b);
     printf("sum:\t%f\n", $1(a, b, &$3, &$4, &$5, &$6, &$7, &$8, &$9));
     printf("sub:\t%f\n", $3);
