@@ -15,7 +15,7 @@ float $1(float a, float b, float* $3, float* $4, float* $5, float* $6, float* $7
 
     return $2;
 }
-int main(){
+float main(){
 
     float a, b, $3, $4, $5, $6, $7, $8, $9;
     printf("chose 2 numbers{n1, n2 ∈ {ℝ - 0}}\n:");
@@ -28,5 +28,5 @@ int main(){
     printf("n2 power n1:\t%f\n", $7);
     printf("sqrt n1:\t%f\n", $8);
     printf("sqrt n2:\t%f\n", $9);  
-        return 1;                                                                                                  // freak--
+        return 0;                                                                                                  // freak--
 }
